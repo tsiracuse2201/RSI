@@ -1,6 +1,3 @@
-# Given a ticker, this calculates RSI for minute by minute calculations. 
-This is meant as a template for anything working with RSI and data streaming. 
-I found most program out there rather horrible so i just made my own. Ultimately, 
-I would want o use something like this to fill market orders based on RSI rather than 
-TWAP and VWAP because it is in between the two. VWAP can be overly selective for orders but 
-TWAP can pick bad prices.
+This code will fetch the stock data for the specified ticker between the start and end dates, and then calculate the RSI using the Close prices and a time period of 14. The resulting data will include the original Close prices and the RSI values.
+
+You can adjust the time period as needed to suit your specific requirements. It's also important to note that the RSI is just one technical indicator and it's generally a good idea to use a combination of indicators to make investment decisions.
